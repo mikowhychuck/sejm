@@ -1,0 +1,155 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    padding-top: 140px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#red {
+    background: rgb(228, 202, 202);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #0a0a0a;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #0a0a0a;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.mp {
+    background: rgb(228, 202, 202);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 16%;
+}
+
+.mp img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+}
+
+.mp-details {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.mp-details h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+.mp-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.club-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 0; 
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(53, 48, 73);
+    text-decoration: underline;
+}
+
+.bar {
+    height: 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+#dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-between;
+}
+
+.container {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.club-container {
+    display: flex;
+    align-items: center;
+}
+
+.club-container img {
+    margin-right: 10px;
+}
+
+.club-details {
+    display: flex;
+    flex-direction: column;
+}
