@@ -21,7 +21,7 @@ function fetchMPData() {
 }
 
 function displayData(data) {
-    const dataContainer = document.getElementById('dataContainer');
+    const dataContainer = document.getElementById('dataMembersContainer');
     dataContainer.innerHTML = '';
 
     if (data && data.length > 0) {

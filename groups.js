@@ -21,7 +21,7 @@ function fetchGroupsData() {
 }
 
 function displayData(data) {
-    const dataContainer = document.getElementById('dataContainer');
+    const dataContainer = document.getElementById('clubsDataContainer');
     dataContainer.innerHTML = '';
 
     if (data && data.length > 0) {

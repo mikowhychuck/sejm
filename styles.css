@@ -129,10 +129,10 @@ a:hover {
 }
 
 #dataContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 10px;
+    padding: 10px;
 }
 
 .container {
@@ -152,4 +152,39 @@ a:hover {
 .club-details {
     display: flex;
     flex-direction: column;
+}
+
+.seating-container {
+    font-size: 52px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+#dataMembersContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+    padding: 10px;
+}
+
+#yes {
+    font-size: large;
+    color: green;
+}
+
+#no {
+    font-size: large;
+    color: red;
+}
+
+#abstain {
+    font-size: large;
+    color: rgb(136, 136, 9);
 }
